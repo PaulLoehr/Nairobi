@@ -5,7 +5,6 @@ from ultralytics.solutions import object_counter
 
 def main():
     process_video('input_videos/video_pedestrians.mp4')
-   
 
 def process_video(path):
     cap = cv2.VideoCapture(path)
